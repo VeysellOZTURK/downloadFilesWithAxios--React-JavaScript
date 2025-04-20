@@ -18,7 +18,7 @@ export default function App() {
       document.body.appendChild(link); // <a> elementini sayfaya ekliyoruz.
       link.click(); // <a> elementine tıklama işlemini programatik olarak gerçekleştiriyoruz.
     } catch (error) { // Hata durumunda hatayı konsola yazdırıyoruz.
-      console.error(error);
+      console.error(error)
     }
 
 
